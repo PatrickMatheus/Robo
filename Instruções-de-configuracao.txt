@@ -1,0 +1,18 @@
+1º Passo
+
+	Instalação do Arduino IDE
+
+2º Passo - Instalação do driver da vespa
+
+	link: https://www.robocore.net/tutoriais/instalacao-driver-da-blackboard#blackboard-uno-v2
+
+3º Passo - Instalação do pacote de placas ESP32
+
+	Na IDE, vá em Preferences e em seguida cole esse link: https://dl.espressif.com/dl/package_esp32_index.json
+	em URLs Adicionais para Gerenciador de Placas
+
+	Com o link adicionado, temos que acessar o "Gerenciador de Placas" através do caminho abaixo.
+	Com o "Gerenciador de Placas" aberto, digite "esp32" na barra de pesquisa para encontrar o pacote da próxima imagem.
+	Com este pacote na lista, pressione o botão "Instalar" para iniciar a instalação da última versão do pacote de placas. Esta instalação deve demorar um minuto e, quando ela estiver concluída, será apresentada a etiqueta "Instalado" ao lado do nome do pacote.
+	Após a instalação, será possível observar que a lista de modelos de placas da Arduino IDE ficou ainda maior, contendo diversas versões de placas ESP32.
+	O modelo de placa que deve ser selecionado para a Vespa é o "ESP32 Dev Module", portanto você pode deixá-lo pré-selecionado se quiser, e não são necessárias outras configurações nas opções da placa.
